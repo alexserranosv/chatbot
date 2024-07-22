@@ -139,3 +139,29 @@
 .chatInputField::placeholder {
   color: #718096;
 }
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a5568;
+  color: #ffffff;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.resetButton {
+  background-color: #718096;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.resetButton:hover {
+  background-color: #4a5568;
+}
